@@ -4,3 +4,4 @@ from pytube import YouTube
 yt = YouTube("https://www.youtube.com/watch?v=PKtnafFtfEo")
 
 yt.streams.first().download()
+print(yt.captions)
